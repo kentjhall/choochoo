@@ -370,9 +370,19 @@ Then, on boot:
    - You could actually just kill `sl` when the boot scripts are done (pass the `-e` flag on start
      and send `SIGINT`), but this would go against the spirit of `sl`.
 
-4. Choo-Choo!
+4. ChooChoo!
 
 ![](sl-boot.gif)
+
+### Submission (optional)
+
+To submit this part, push the `choochoop6handin` tag with the following:
+
+```
+$ git tag -a -m "Completed choochoo part6." choochoop6handin
+$ git push origin master
+$ git push origin choochoop6handin
+```
 
 -----------------------------------------------------------------------------------------------------------
 
@@ -385,4 +395,4 @@ TAs of COMS W4118 Operating Systems I, Spring 2020, Columbia University:
 
 -----------------------------------------------------------------------------------------------------------
 
-_Last updated: 2020-05-10_
+_Last updated: 2020-05-11_
