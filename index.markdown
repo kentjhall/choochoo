@@ -401,4 +401,4 @@ TAs of COMS W4118 Operating Systems I, Spring 2020, Columbia University:
 
 -----------------------------------------------------------------------------------------------------------
 
-_Last updated: 2020-05-11_
+_Last updated: 2020-06-01_
