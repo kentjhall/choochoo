@@ -224,9 +224,9 @@ scripts available in `/etc/init.d`. Additionally, note that each script has avai
    - It's recommended that you approach your own logging this way as well, if any; however, this
      is not required.
 
-   - Neither `traind` nor any spawned child processes (except `agetty`) should take on a controlling
-     terminal at any point—make sure you always `open(2)` the terminal device with any necessary
-     flag(s) to keep it this way.
+- Neither `traind` nor any spawned child processes (except `agetty`) should take on a controlling
+  terminal at any point—make sure you always `open(2)` the terminal device with any necessary
+  flag(s) to keep it this way.
 
 - You must wait on each boot script to finish completely.
 
